@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="699.0" viewBox="0 0 760 699.0" role="img" aria-label="Step-by-step visual walkthrough">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="context-stroke"/></marker></defs>
+<rect x="1.0" y="1.0" width="758.0" height="697.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="34.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1e293b" text-anchor="start" font-weight="600">Bipartite (DFS) — color on the way down</text>
+<circle cx="35.0" cy="74.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="78.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="56.0" y="79.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Same two-coloring, recursive: color a node, recurse into each neighbor with the</text>
+<text x="56.0" y="98.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">OPPOSITE color.</text>
+<line x1="242.0" y1="144.0" x2="516.0" y2="144.0" stroke="#94a3b8" stroke-width="1.6"/>
+<line x1="538.0" y1="164.0" x2="538.0" y2="230.0" stroke="#94a3b8" stroke-width="1.6"/>
+<line x1="518.0" y1="252.0" x2="244.0" y2="252.0" stroke="#94a3b8" stroke-width="1.6"/>
+<line x1="222.0" y1="232.0" x2="222.0" y2="166.0" stroke="#94a3b8" stroke-width="1.6"/>
+<circle cx="222.0" cy="144.0" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="222.0" y="149.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">0</text>
+<circle cx="538.0" cy="144.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="538.0" y="149.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="538.0" cy="252.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="538.0" y="257.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">2</text>
+<circle cx="222.0" cy="252.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="222.0" y="257.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">3</text>
+<line x1="24.0" y1="300.0" x2="736.0" y2="300.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="320.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="324.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="56.0" y="325.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">DFS around the square: 0 blue → 1 green → 2 blue → 3 green; 3's edge back to 0 sees</text>
+<text x="56.0" y="344.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">blue vs green ✓. On a triangle the wrap-around edge would collide.</text>
+<line x1="242.0" y1="390.0" x2="516.0" y2="390.0" stroke="#16a34a" stroke-width="1.6"/>
+<line x1="538.0" y1="410.0" x2="538.0" y2="476.0" stroke="#16a34a" stroke-width="1.6"/>
+<line x1="518.0" y1="498.0" x2="244.0" y2="498.0" stroke="#16a34a" stroke-width="1.6"/>
+<line x1="222.0" y1="478.0" x2="222.0" y2="412.0" stroke="#16a34a" stroke-width="1.6"/>
+<circle cx="222.0" cy="390.0" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="222.0" y="395.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">0</text>
+<circle cx="538.0" cy="390.0" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="538.0" y="395.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="538.0" cy="498.0" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="538.0" y="503.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">2</text>
+<circle cx="222.0" cy="498.0" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="222.0" y="503.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">3</text>
+<line x1="24.0" y1="546.0" x2="736.0" y2="546.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="566.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="570.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="56.0" y="571.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">DFS and BFS verdicts always agree — the theorem (no odd cycle) doesn't care how you</text>
+<text x="56.0" y="590.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">traverse. Practical uses: scheduling into two shifts, conflict graphs, matching</text>
+<text x="56.0" y="609.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">preprocessing.</text>
+<text x="72.0" y="644.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="end">summary</text>
+<rect x="84.0" y="625.0" width="162.0" height="28.0" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="165.0" y="644.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">colors → 2 camps</text>
+<rect x="256.0" y="625.0" width="306.0" height="28.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="409.0" y="644.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">odd cycle → the only obstruction</text>
+<text x="380.0" y="681.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">github.com/Sreenivas-Sadhu-Prabhakara · dsa series</text>
+</svg>
